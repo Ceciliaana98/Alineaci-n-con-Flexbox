@@ -17,13 +17,16 @@
 .Opening{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5px;
 }
 .Opening div{
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    align-items: baseline;
     padding: 5px;
+    height: 15px;
+    
 }
 
 .black{
